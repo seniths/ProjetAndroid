@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.max.europeanchampionship" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Home"
+            android:label="@string/home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FavoriteTeams"
+            android:label="@string/title_activity_favorite_teams"
+            android:parentActivityName=".Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.max.europeanchampionship.Home" />
+        </activity>
+        <activity
+            android:name=".Team"
+            android:label="@string/title_activity_team" >
+        </activity>
+        <activity
+            android:name=".Composition"
+            android:label="@string/title_activity_composition"
+            android:parentActivityName=".Team" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.max.europeanchampionship.Team" />
+        </activity>
+        <activity
+            android:name=".Championships"
+            android:label="@string/title_activity_championships"
+            android:parentActivityName=".Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.max.europeanchampionship.Home" />
+        </activity>
+    </application>
+
+</manifest>

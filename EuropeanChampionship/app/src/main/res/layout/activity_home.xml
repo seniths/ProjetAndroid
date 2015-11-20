@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favorites"
+        android:textSize="30sp"
+        android:id="@+id/buttonFav"
+        android:layout_weight="1"
+        android:background="@drawable/favorites"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/championships"
+        android:textSize="30sp"
+        android:id="@+id/buttonChamp"
+        android:layout_weight="1"
+        android:background="@drawable/championships"
+        android:textColor="#ffffff" />
+</LinearLayout>

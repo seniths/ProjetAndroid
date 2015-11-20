@@ -1,0 +1,187 @@
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tableLayout"
+    android:stretchColumns="2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/grass">
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:id="@+id/FlagGermany"
+            android:background="@drawable/germany_round_icon_64"
+            android:layout_column="1"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:text="@string/Allemagne"
+            android:id="@+id/Germany"
+            android:layout_column="2"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageBundesliga"
+            android:background="@drawable/bundesliga"
+            android:layout_column="3"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:id="@+id/ImageEredivisie"
+            android:background="@drawable/netherlands_round_icon_64"
+            android:layout_column="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PaysBas"
+            android:id="@+id/Nederland"
+            android:layout_column="2"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageErevidivisie"
+            android:background="@drawable/eredivisie"
+            android:layout_column="3"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:id="@+id/ImageLigue1"
+            android:background="@drawable/france_round_icon_64"
+            android:layout_column="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/France"
+            android:id="@+id/France"
+            android:layout_column="2"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageLigue1"
+            android:background="@drawable/ligue1"
+            android:layout_column="3"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:id="@+id/ImagePremierLeague"
+            android:background="@drawable/england_round_icon_64"
+            android:layout_column="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Angleterre"
+            android:id="@+id/England"
+            android:layout_column="2"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imagePremierLeague"
+            android:background="@drawable/premierleague"
+            android:layout_column="3"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:id="@+id/ImagePrimeiraLiga"
+            android:background="@drawable/portugal_round_icon_64"
+            android:layout_column="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Portugal"
+            android:id="@+id/Portugal"
+            android:layout_column="2"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imagePrimeiraLiga"
+            android:background="@drawable/primeiraliga"
+            android:layout_column="3"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:id="@+id/ImagePrimeraDivision"
+            android:background="@drawable/spain_round_icon_64"
+            android:layout_column="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Espagne"
+            android:id="@+id/Spain"
+            android:layout_column="2"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imagePrimeraDivision"
+            android:background="@drawable/primeradivision"
+            android:layout_column="3"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:id="@+id/ImageSerieA"
+            android:background="@drawable/italy_round_icon_64"
+            android:layout_column="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Italie"
+            android:id="@+id/Italy"
+            android:layout_column="2"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageSerieA"
+            android:background="@drawable/seriea"
+            android:layout_column="3"/>
+
+    </TableRow>
+</TableLayout>
+

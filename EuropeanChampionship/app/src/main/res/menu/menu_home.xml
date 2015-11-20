@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Home">
+
+    <item android:id="@+id/actionBarHome"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/home"
+        app:showAsAction="always"/>
+    <item android:id="@+id/actionBarFav"
+        android:icon="@drawable/ic_star_white_24dp"
+        android:title="@string/favorites"
+        app:showAsAction="always"/>
+    <item android:id="@+id/actionBarChampionship"
+        android:icon="@drawable/ic_list_white_24dp"
+        android:title="@string/championships"
+        app:showAsAction="always"/>
+</menu>
